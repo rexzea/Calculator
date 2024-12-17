@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Ilmiah Advanced</title>
+    <link rel="stylesheet" href="c1.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧮</text></svg>">
+</head>
+<body>
+    <div class="calculator">
+        <div class="display">
+            <input type="text" id="result" readonly placeholder="0" maxlength="50">
+            <div id="history"></div>
+        </div>
+        
+        <div class="buttons">
+            <!-- Tombol Fungsi Ilmiah -->
+
+
+            <div class="main-buttons">
+                <button class="operator" data-btn="*">×</button>
+                <button class="operator" data-btn="-">-</button>
+                <button class="operator" data-btn="/">÷</button>
+
+                
+                
+                <button class="operator" data-btn="+">+</button>
+                <button class="number" data-btn="7">7</button>
+                <button class="number" data-btn="8">8</button>
+                <button class="number" data-btn="9">9</button>
+                <button class="clear" data-btn="clear" title="Hapus Semua">C 🧹</button>
+
+
+
+
+                <button class="number" data-btn="4">4</button>
+                <button class="number" data-btn="5">5</button>
+                <button class="number" data-btn="6">6</button>
+
+
+
+
+                <button class="backspace" data-btn="backspace" title="Delete"> ⌫</button>
+                <button class="number" data-btn="1">1</button>
+                <button class="number" data-btn="2">2</button>
+                <button class="number" data-btn="3">3</button>
+                <button class="equals" data-btn="=">=</button>
+
+                <button class="number wide" data-btn="0">0</button>
+                <button class="decimal" data-btn=".">.</button>
+            </div>
+        </div>
+    </div>
+    <script src="c1.js"></script>
+</body>
+</html>
